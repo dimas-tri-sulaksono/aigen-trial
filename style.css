@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: Poppins;
+    /* padding-inline: 20px; */
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    padding-inline: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav .left-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+nav .left-nav img{
+    height: 40px;
+}
+
+nav .right-nav a{
+    background-color: #eb374e;
+    padding-inline: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+nav .right-nav a:hover{
+    background-color: red;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: #eb374e;
+}
+
+nav .right-nav .icon{
+    display: none;
+}
+
+.personal{
+    display: flex;
+    padding-inline: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 32px;
+}
+
+.card{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.card .image img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.card .header h1{
+    font-size: 32px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.card .content p{
+    text-align: justify;
+}
+
+.card table{
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+.card table tr th{
+    font-weight: 600;
+    padding: 6px;
+    text-align: center;
+}
+
+.card table tr td {
+    font-weight: 300;
+    padding: 6px;
+    text-align: center;
+}
+
+/* nth-child : pseudo class css untuk memilih elemen yang punya posisi tertentu di dalam urutan anak elemen (bisa diisi: even, odd, 1, 2, 3, dst...) */
+.card table tr:nth-child(odd){
+    background-color: #ffccee;
+}
+
+.card table tr td a img {
+    padding-top: 6px;
+}
+
+.personal .right h2{
+    margin: 0;
+}
+
+.personal .right p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personal .right .skill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.personal .right .skill img{
+    height: 60px;
+    width: 60px;
+}
+
+.personal .right .skill .skill-1{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 300px;
+}
+
+.personal .right .skill .skill-2{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.personal .right .findme{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.personal .right .findme h2{
+    margin: 0;
+}
+
+.personal .right .findme .social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.personal .right .findme .social a img{
+    width: 60px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer span{
+    color: #eb374e;
+}
+
+@media screen and (max-width:768px) {
+    nav{
+        padding-inline: 16px;
+    }
+    
+    nav .left-nav{
+        gap: 16px;
+        align-items: center;
+    }
+
+    nav .left-nav img{
+        height: 24px;
+    }
+
+    nav .right-nav a{
+        display: none;
+    }
+
+    nav .right-nav .icon{
+        display: block;
+        background-color: black;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .right-nav .icon:hover{
+        background-color: black;
+    }
+
+    .material-symbols-outlined:hover{
+        color:#d12038;
+    }
+    .personal {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 16px;
+    }
+
+    .personal .left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: fit-content;
+    }
+
+    .personal .right h1,h2, .skill, .social{
+        display: flex;
+        justify-content: center;
+
+    };
+}
+
