@@ -9,7 +9,7 @@ body{
 nav{
     background-color: black;
     display: flex;
-    padding-inline: 50px;
+    padding-inline: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
     justify-content: space-between;
@@ -20,6 +20,7 @@ nav{
 
 nav .left-nav{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 40px;
 }
