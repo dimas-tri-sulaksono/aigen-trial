@@ -22,7 +22,6 @@ nav .left-nav{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 40px;
 }
 
 nav .left-nav img{
