@@ -82,6 +82,10 @@ nav .right-nav .icon{
     margin-left: 24px;
 }
 
+.blog .blog-list .blog-list-item .blog-content{
+    text-align: justify;
+}
+
 .blog .blog-form{
     width: 25%;
 }

@@ -41,7 +41,7 @@ function renderBlog(){
                 </div>
                 <div class="blog-content">
                     <h1>${blogs[i].blogTitle}</h1>
-                    <span>26 Nov 2024 09:00 | John Doe </span>
+                    <span>26 Nov 2024 09:00 | Dimas Sulaksono </span>
                     <p>${blogs[i].blogContent}</p>
                 </div>
             </div>

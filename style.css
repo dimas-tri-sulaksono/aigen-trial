@@ -9,7 +9,7 @@ body{
 nav{
     background-color: black;
     display: flex;
-    padding-inline: 50px;
+    padding-inline: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
     justify-content: space-between;
@@ -20,9 +20,10 @@ nav{
 
 nav .left-nav{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 nav .left-nav img{
@@ -34,7 +35,7 @@ nav .right-nav a{
     padding-inline: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 nav .right-nav a:hover{
@@ -87,7 +88,13 @@ nav .right-nav .icon{
     text-align: justify;
 }
 
-.card table{
+.card .info table tr td{
+    text-align: left;
+    padding: 0;
+    border none;
+}
+
+.card .project table{
     width: 100%;
     border: 1px solid grey;
     border-collapse: collapse;
@@ -107,7 +114,7 @@ nav .right-nav .icon{
 }
 
 /* nth-child : pseudo class css untuk memilih elemen yang punya posisi tertentu di dalam urutan anak elemen (bisa diisi: even, odd, 1, 2, 3, dst...) */
-.card table tr:nth-child(odd){
+.card .project table tr:nth-child(odd){
     background-color: #ffccee;
 }
 
@@ -177,7 +184,6 @@ a{
 footer{
     background-color: black;
     padding: 10px;
-    margin-bottom: 20px;
     text-align: center;
     color: white;
 }
@@ -194,10 +200,10 @@ footer span{
     nav .left-nav{
         gap: 16px;
         align-items: center;
+        ma
     }
-
-    nav .left-nav img{
-        height: 24px;
+    nav .left-nav a img{
+        height: 30px;
     }
 
     nav .right-nav a{
@@ -234,7 +240,7 @@ footer span{
         max-width: fit-content;
     }
 
-    .personal .right h1,h2, .skill, .social{
+    .personal .right h1,h2, h3, .skill, .social{
         display: flex;
         justify-content: center;
 
