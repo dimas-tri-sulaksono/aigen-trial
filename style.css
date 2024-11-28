@@ -90,7 +90,7 @@ nav .right-nav .icon{
 .card .info table tr td{
     text-align: left;
     padding: 0;
-    border none;
+    border: none;
 }
 
 .card .project table{
@@ -201,8 +201,8 @@ footer span{
     nav .left-nav{
         gap: 16px;
         align-items: center;
-        ma
     }
+    
     nav .left-nav a img{
         height: 30px;
     }
