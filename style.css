@@ -109,7 +109,8 @@ nav .right-nav .icon{
 .card table tr td {
     font-weight: 300;
     padding: 6px;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
 }
 
 /* nth-child : pseudo class css untuk memilih elemen yang punya posisi tertentu di dalam urutan anak elemen (bisa diisi: even, odd, 1, 2, 3, dst...) */
@@ -140,6 +141,7 @@ nav .right-nav .icon{
 .personal .right .skill img{
     height: 60px;
     width: 60px;
+    padding-right: 15px;
 }
 
 .personal .right .skill .skill-1{
